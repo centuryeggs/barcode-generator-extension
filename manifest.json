@@ -1,0 +1,32 @@
+{
+  "name": "Barcode Generator",
+  "description": "Generate barcodes",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "barcode16.png",
+      "32": "barcode32.png",
+      "48": "barcode48.png"
+    },
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "MacCtrl+B"
+      },
+      "description": "Opens popup.html"
+    }
+  }
+}

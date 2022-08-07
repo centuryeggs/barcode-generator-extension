@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./JsBarcode.code128.min.js"></script>
+  <title>Barcode Generator</title>
+    <style>
+      body {
+        text-align: center;
+        height: 200px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        word-break: normal;
+      }
+    </style>
+</head>
+<body>
+  <textarea id="textarea" rows="2"></textarea>
+  <svg id="barcode"></svg>
+  <script src="popup.js"></script>
+</body>
+</html>
