@@ -6,24 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./JsBarcode.code128.min.js"></script>
   <title>Barcode Generator</title>
-    <style>
-      body {
-        text-align: center;
-        height: 200px;
-        width: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      button {
-        word-break: normal;
-      }
-    </style>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <textarea id="textarea" rows="2"></textarea>
-  <svg id="barcode"></svg>
+  <input id="input"></input>
+  <svg id="barcode" jsbarcode-font="Tahoma"></svg>
   <script src="popup.js"></script>
 </body>
 </html>

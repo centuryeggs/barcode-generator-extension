@@ -1,17 +1,19 @@
 'use strict';
 
-let textarea = document.getElementById('textarea')
+let input = document.getElementById('input')
 
-textarea.addEventListener('input', function(e) {
+input.addEventListener('input', function(e) {
   console.log(e.target.value)
-  JsBarcode("#barcode", e.target.value);
+  let code = e.target.value.trim()
+  if (!code) return
+  JsBarcode("#barcode", code, {
+    displayValue: false,
+    font: 'Tahoma'
+  });
 })
-copyTextToClipboard(textarea)
+copyTextToClipboard(input)
 
-
-function copyTextToClipboard(textarea) {
-  textarea.select()
+function copyTextToClipboard(input) {
+  input.select()
   document.execCommand('paste');
-  // copyFrom.blur();
-  // document.body.removeChild(copyFrom);
-}
+} 

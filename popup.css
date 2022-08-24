@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+input {
+  outline: none;
+  width: calc(100% - 20px);
+  font-family: Tahoma;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  resize: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
