@@ -8,14 +8,9 @@
     "clipboardRead",
     "clipboardWrite"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
     "default_icon": {
-      "16": "barcode16.png",
-      "32": "barcode32.png",
-      "48": "barcode48.png"
+      "32": "barcode32.png"
     },
     "default_title": "Click Me",
     "default_popup": "popup.html"

@@ -1,5 +1,3 @@
-'use strict';
-
 let input = document.getElementById('input')
 
 input.addEventListener('input', function(e) {
@@ -11,6 +9,7 @@ input.addEventListener('input', function(e) {
     font: 'Tahoma'
   });
 })
+
 copyTextToClipboard(input)
 
 function copyTextToClipboard(input) {
