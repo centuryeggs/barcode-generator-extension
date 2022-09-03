@@ -4,13 +4,11 @@
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [
-    "storage",
-    "clipboardRead",
-    "clipboardWrite"
+    "clipboardRead"
   ],
   "action": {
     "default_icon": {
-      "32": "barcode32.png"
+      "64": "barcode64.png"
     },
     "default_title": "Click Me",
     "default_popup": "popup.html"
