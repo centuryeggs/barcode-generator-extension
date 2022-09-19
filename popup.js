@@ -1,7 +1,5 @@
 let input = document.getElementById('input')
-
 input.addEventListener('input', function(e) {
-  console.log(e.target.value)
   let code = e.target.value.trim()
   if (!code) return
   JsBarcode("#barcode", code, {
@@ -9,10 +7,5 @@ input.addEventListener('input', function(e) {
     font: 'Tahoma'
   });
 })
-
-copyTextToClipboard(input)
-
-function copyTextToClipboard(input) {
-  input.select()
-  document.execCommand('paste');
-} 
+input.select()
+document.execCommand('paste')
