@@ -1,16 +1,16 @@
 {
   "name": "Barcode Generator",
   "description": "Generate barcodes",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": [
     "clipboardRead"
   ],
   "action": {
     "default_icon": {
-      "64": "barcode64.png"
+      "64": "streamline-flex--ai-scanner-robot-remix.png"
     },
-    "default_title": "Click Me",
+    "default_title": "Barcode Generator",
     "default_popup": "popup.html"
   },
   "commands": {
