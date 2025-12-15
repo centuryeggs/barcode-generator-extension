@@ -8,7 +8,7 @@
   ],
   "action": {
     "default_icon": {
-      "64": "streamline-flex--ai-scanner-robot-remix.png"
+      "32": "/images/scanner32x32.png"
     },
     "default_title": "Barcode Generator",
     "default_popup": "popup.html"
