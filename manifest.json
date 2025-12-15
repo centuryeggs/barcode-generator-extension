@@ -8,7 +8,7 @@
   ],
   "action": {
     "default_icon": {
-      "32": "/images/scanner32x32.png"
+      "128": "/images/scanner128x128.png"
     },
     "default_title": "Barcode Generator",
     "default_popup": "popup.html"
